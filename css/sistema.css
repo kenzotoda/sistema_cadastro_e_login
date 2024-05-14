@@ -1,0 +1,35 @@
+@import url("styles.css");
+
+.navegacao {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+#body {
+    background-color: var(--color-black);
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 13px;
+    font-family: var(--fonte-principal);
+}
+
+.navegacao__title {
+    text-decoration: none;
+    color: var(--secondary-color);
+    background-color: var(--quaternary-color);
+    border-radius: 16px;
+    padding: 5px;
+}
+
+#botao {
+    font-size: 13px;
+}
+
+.box-search {
+    display: flex;
+    justify-content: center;
+    gap: .2%;
+}

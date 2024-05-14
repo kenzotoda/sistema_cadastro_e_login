@@ -1,0 +1,85 @@
+@import url("styles.css");
+
+.box {
+    background-color: var(--secondary-color);
+    padding: 16px;
+    border-radius: 16px;
+}
+
+
+.box__input {
+    display: block;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+body {
+    background-color: var(--color-black);
+}
+
+.texto {
+    color: black;
+    font-weight: 700;
+}
+
+.box__titulo {
+    color: var(--terciary-color);
+    background-color: black;
+    padding: 4px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mensagem {
+    background-color: var(--terciary-color);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+i {
+    font-size: 25px;
+}
+
+.box__input {
+    outline: none;
+    padding: 10px;
+    border: none;
+    font-family: var(--fonte-principal);
+}
+
+#submit {
+    color: var(--secondary-color);
+    background-color: var(--quaternary-color);
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn__back {
+    text-decoration: none;
+    padding: 7px;
+    color: var(--secondary-color);
+    background-color: var(--quaternary-color);
+    display: flex;
+    position: absolute;
+    border-radius: 16px;
+}
